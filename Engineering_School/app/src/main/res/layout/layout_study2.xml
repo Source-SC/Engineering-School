@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    첫번째박스에서 텍스트 내용만큼 박스크기를 사용하고 나머지 영역을
+        2,3번째 박스가 1:2의 비율로 영역을 차지하는 예제-->
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="text1aaaaa"
+            android:background="@color/colorAccent"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="text2"
+            android:background="@color/colorPrimaryDark"
+
+            >
+    </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:text="text3"
+            android:background="@color/colorPrimary"
+            >
+    </TextView>
+    </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
