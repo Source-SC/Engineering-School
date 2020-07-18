@@ -52,13 +52,13 @@ public class MainPage extends AppCompatActivity {
                     case R.id.bal5 : // 5
                         Intent intent5 = new Intent(
                                 getApplicationContext(),
-                                layout_study8.class);
+                                ListViewItem.class);
                         startActivity(intent5);
                         break ;
                     case R.id.bal6 : // 6
                         Intent intent6 = new Intent(
                                 getApplicationContext(),
-                                layout_study9.class);
+                                ListViewAdapter.class);
                         startActivity(intent6);
                         break ;
                     case R.id.bal7 : // 7
