@@ -15,98 +15,137 @@ public class MainPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage);
 
+        Button.OnClickListener onClickListener = new Button.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switch (view.getId()) {
+                    case R.id.bal0 : // 0
+                        Intent intent0 = new Intent(
+                                getApplicationContext(),
+                                layout_study.class);
+                        startActivity(intent0);
+                        break ;
+                    case R.id.bal1 : // 1
+                        Intent intent1 = new Intent(
+                                getApplicationContext(),
+                                layout_study2.class);
+                        startActivity(intent1);
+                        break ;
+                    case R.id.bal2 : // 2
+                        Intent intent2 = new Intent(
+                                getApplicationContext(),
+                                layout_study3.class);
+                        startActivity(intent2);
+                        break ;
+                    case R.id.bal3 : // 3
+                        Intent intent3 = new Intent(
+                                getApplicationContext(),
+                                calendar.class);
+                        startActivity(intent3);
+                        break ;
+                    case R.id.bal4 : // 4
+                        Intent intent4 = new Intent(
+                                getApplicationContext(),
+                                layout_study7.class);
+                        startActivity(intent4);
+                        break ;
+                    case R.id.bal5 : // 5
+                        Intent intent5 = new Intent(
+                                getApplicationContext(),
+                                layout_study8.class);
+                        startActivity(intent5);
+                        break ;
+                    case R.id.bal6 : // 6
+                        Intent intent6 = new Intent(
+                                getApplicationContext(),
+                                layout_study9.class);
+                        startActivity(intent6);
+                        break ;
+                    case R.id.bal7 : // 7
+                        Intent intent7 = new Intent(
+                                getApplicationContext(),
+                                layout_study10.class);
+                        startActivity(intent7);
+                        break ;
+                    case R.id.bal8 : // 8
+                        Intent intent8 = new Intent(
+                                getApplicationContext(),
+                                layout_study11.class);
+                        startActivity(intent8);
+                        break ;
+                    case R.id.f1 : // 9
+                        Intent intentf1 = new Intent(
+                                getApplicationContext(),
+                                calculator.class);
+                        startActivity(intentf1);
+                        break ;
+                    case R.id.f2 : // +
+                        Intent intentf2 = new Intent(
+                                getApplicationContext(),
+                                change_image.class);
+                        startActivity(intentf2);
+                        break ;
+                    case R.id.f3 : // -
+                        Intent intentf3 = new Intent(
+                                getApplicationContext(),
+                                profile.class);
+                        startActivity(intentf3);
+                        break ;
+                    case R.id.f4 : // x
+                        Intent intentf4 = new Intent(
+                                getApplicationContext(),
+                                login.class);
+                        startActivity(intentf4);
+                        break ;
+                    case R.id.f5 : // /
+                        Intent intentf5= new Intent(
+                                getApplicationContext(),
+                                calendar2.class);
+                        startActivity(intentf5);
+                        break ;
+//                    case R.id.f6 : // =
+//                        Intent intentf6 = new Intent(
+//                                getApplicationContext(),
+//                                layout_study.class);
+//                        startActivity(intentf6);
+//                        break ;
+                }
+            }
+        } ;
 
-
-        Button bt0 = (Button)findViewById(R.id.btn0);
-        Button bt1 = (Button)findViewById(R.id.btn1);
-        Button bt2 = (Button)findViewById(R.id.btn2);
-        Button bt3 = (Button)findViewById(R.id.btn3);
-        Button bt4 = (Button)findViewById(R.id.btn4);
-        Button bt5 = (Button)findViewById(R.id.btn5);
-        Button bt6 = (Button)findViewById(R.id.btn6);
-        Button bt7 = (Button)findViewById(R.id.btn7);
-        Button bt8 = (Button)findViewById(R.id.btn8);
-
-        bt0.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        calculator.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
-        bt1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        project1.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
-        bt2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        project1.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
-        bt3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        layout_study.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
-        bt4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        layout_study2.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
-        bt5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        layout_study3.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
-        bt6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        profile.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
-        bt7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        login.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
-        bt8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        layout_study6.class); // 다음 넘어갈 클래스 지정
-                startActivity(intent); // 다음 화면으로 넘어간다
-            }
-        });
+        Button bal0 = (Button) findViewById(R.id.bal0) ;
+        bal0.setOnClickListener(onClickListener) ;
+        Button bal1 = (Button) findViewById(R.id.bal1) ;
+        bal1.setOnClickListener(onClickListener) ;
+        Button bal2 = (Button) findViewById(R.id.bal2) ;
+        bal2.setOnClickListener(onClickListener) ;
+        Button bal3 = (Button) findViewById(R.id.bal3) ;
+        bal3.setOnClickListener(onClickListener) ;
+        Button bal4 = (Button) findViewById(R.id.bal4) ;
+        bal4.setOnClickListener(onClickListener) ;
+        Button bal5 = (Button) findViewById(R.id.bal5) ;
+        bal5.setOnClickListener(onClickListener) ;
+        Button bal6 = (Button) findViewById(R.id.bal6) ;
+        bal6.setOnClickListener(onClickListener) ;
+        Button bal7 = (Button) findViewById(R.id.bal7) ;
+        bal7.setOnClickListener(onClickListener) ;
+        Button bal8 = (Button) findViewById(R.id.bal8) ;
+        bal8.setOnClickListener(onClickListener) ;
+//        Button bal9 = (Button) findViewById(R.id.bal9) ;
+//        bal9.setOnClickListener(onClickListener) ;
+        Button f1 = (Button) findViewById(R.id.f1) ;
+        f1.setOnClickListener(onClickListener) ;
+        Button f2 = (Button) findViewById(R.id.f2) ; // +
+        f2.setOnClickListener(onClickListener) ;
+        Button f3 = (Button) findViewById(R.id.f3) ; // =
+        f3.setOnClickListener(onClickListener) ;
+        Button f4 = (Button) findViewById(R.id.f4) ; // -
+        f4.setOnClickListener(onClickListener) ;
+        Button f5 = (Button) findViewById(R.id.f5) ; // x
+        f5.setOnClickListener(onClickListener) ;
+        Button f6 = (Button) findViewById(R.id.f6) ; // /
+        f6.setOnClickListener(onClickListener) ;
+//        Button bt2 = (Button) findViewById(R.id.btn2) ; // /
+//        bt2.setOnClickListener(onClickListener) ;
     } // end onCreate()
 } // e

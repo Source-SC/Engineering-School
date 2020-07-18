@@ -11,25 +11,28 @@
     <TableRow>
 
         <Button
-            android:id="@+id/btn0"
-            android:layout_width="wrap_content"
+            android:id="@+id/bal0"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="calculator"
+            android:text="layout1"
+            android:layout_weight="1"
             />
 
         <Button
-            android:id="@+id/btn1"
-            android:layout_width="wrap_content"
+            android:id="@+id/bal1"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="change_image"
+            android:text="layout2"
+            android:layout_weight="1"
 
             />
 
         <Button
-            android:id="@+id/btn2"
-            android:layout_width="wrap_content"
+            android:id="@+id/bal2"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="3"
+            android:layout_weight="1"
+            android:text="layout3"
 
             />
 
@@ -38,24 +41,59 @@
     <TableRow>
 
         <Button
-            android:id="@+id/btn3"
-            android:layout_width="wrap_content"
+            android:id="@+id/bal3"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="layout_study"
+            android:layout_weight="1"
+            android:text="layout4"
             />
         <Button
-            android:id="@+id/btn4"
-            android:layout_width="wrap_content"
+            android:id="@+id/bal4"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="layout_study2"
+            android:layout_weight="1"
+            android:text="layout5"
             />
         <Button
-        android:id="@+id/btn5"
-        android:layout_width="wrap_content"
+        android:id="@+id/bal5"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="layout_study3"
+            android:layout_weight="1"
+        android:text="layout6"
         />
     </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bal6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="layout7"
+            />
+
+        <Button
+            android:id="@+id/bal7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="layout8"
+            />
+
+        <Button
+            android:id="@+id/bal8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="layout9"
+
+            />
+
+    </TableRow>
+
+
+
     <TextView
         android:text="Simple function"
         android:layout_marginTop="10dp"
@@ -63,22 +101,49 @@
     <TableRow>
 
         <Button
-            android:id="@+id/btn6"
-            android:layout_width="wrap_content"
+            android:id="@+id/f1"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="profile"
+            android:layout_weight="1"
+            android:text="calculator"
             />
         <Button
-            android:id="@+id/btn7"
-            android:layout_width="wrap_content"
+            android:id="@+id/f2"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="change_image"
+            />
+        <Button
+            android:id="@+id/f3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="profile"
+            />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/f4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="login"
             />
         <Button
-            android:id="@+id/btn8"
-            android:layout_width="wrap_content"
+            android:id="@+id/f5"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="layout_study6"
+            android:layout_weight="1"
+            android:text="calendar2"
+            />
+        <Button
+            android:id="@+id/f6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="none"
             />
     </TableRow>
 

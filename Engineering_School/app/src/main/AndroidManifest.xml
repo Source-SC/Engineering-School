@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".project2">
+        <activity android:name=".hanyang">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,14 +17,21 @@
             </intent-filter>
         </activity>
         <activity android:name=".calculator"/>
-        <activity android:name="project1"/>
+        <activity android:name=".change_image"/>
         <activity android:name=".MainPage"/>
         <activity android:name=".layout_study"/>
         <activity android:name=".layout_study2"/>
         <activity android:name=".layout_study3"/>
         <activity android:name=".profile"/>
         <activity android:name=".login"/>
-        <activity android:name=".layout_study6"/>
+        <activity android:name=".calendar2"/>
+        <activity android:name=".calendar"/>
+        <activity android:name=".layout_study7"/>
+        <activity android:name=".layout_study8"/>
+        <activity android:name=".layout_study9"/>
+        <activity android:name=".layout_study10"/>
+        <activity android:name=".layout_study11"/>
+
     </application>
 
 </manifest>

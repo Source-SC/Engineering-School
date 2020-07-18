@@ -6,13 +6,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class project1 extends AppCompatActivity {
+public class change_image extends AppCompatActivity {
     int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.project1);
+        setContentView(R.layout.change_image);
         final ImageView img_up1 = (ImageView) findViewById(R.id.img_up_1) ;
         final ImageView img_up2 = (ImageView) findViewById(R.id.img_up_2) ;
         final ImageView img_down1 = (ImageView) findViewById(R.id.img_down_1) ;

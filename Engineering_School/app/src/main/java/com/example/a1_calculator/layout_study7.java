@@ -13,13 +13,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class layout_study6 extends AppCompatActivity {
+public class layout_study7 extends AppCompatActivity {
     int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_study6);
+        setContentView(R.layout.layout_study7);
 //        final ImageView im1 = (ImageView) findViewById(R.id.img1) ;
 //        final ImageView im2 = (ImageView) findViewById(R.id.img2) ;
 

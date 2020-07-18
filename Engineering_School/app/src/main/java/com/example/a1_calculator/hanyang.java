@@ -7,7 +7,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.widget.TextView;
 
-public class project2 extends Activity {
+public class hanyang extends Activity {
 
 
     Handler handler = new Handler();
@@ -21,7 +21,6 @@ public class project2 extends Activity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                final TextView tv1 = (TextView) findViewById(R.id.tv1) ;
                 int count = 3;
                 while(count > 0) { // 현재 UI 스레드가 아니기 때문에 메시지 큐에 Runnable을 등록 함
                     count--;
@@ -30,7 +29,7 @@ public class project2 extends Activity {
                     Message msg = handler.obtainMessage();
                     msg.arg1 = count;
                     handler.sendMessage(msg);
-                    tv1.setText("" + count);
+                    //tv1.setText("" + count);
 
 //                    runOnUiThread(new Runnable() {
 //                        public void run() { // 메시지 큐에 저장될 메시지의 내용
