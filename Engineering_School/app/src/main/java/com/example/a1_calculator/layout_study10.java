@@ -30,23 +30,6 @@ public class layout_study10 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_study8);
 
-        for(int i=0;i<20;i++){
-            strArrayList.add(i + "번째");
-        }
-        AdapterView listview = (ListView) findViewById(R.id.listview1);
-        listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView parent, View v, int position, long id) {
-                // get item
-                ListViewItem item = (ListViewItem) parent.getItemAtPosition(position);
 
-                String titleStr = item.getTitle();
-                String descStr = item.getDesc();
-                Drawable iconDrawable = item.getIcon();
-
-
-                // TODO : use item data.
-            }
-        });
     }
 }
